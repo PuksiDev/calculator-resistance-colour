@@ -1,0 +1,63 @@
+/* paleta de colores */
+.paleta {
+  width: 110px;
+  height: 200px;
+  border: solid 1px black;
+  border-radius: 5px;
+  padding: 10px;
+  background-color: #E5D367;
+}
+
+.color {
+  width: 45%;
+  height: 15%;
+  border: solid 1px black;
+  display: inline-block;
+}
+
+.negro {
+  background-color: black;
+}
+
+.cafe {
+  background-color: Maroon;
+}
+
+.rojo {
+  background-color: red;
+}
+
+.naranja {
+  background-color: orange;
+}
+
+.amarillo {
+  background-color: yellow;
+}
+
+.verde {
+  background-color: green;
+}
+
+.azul {
+  background-color: blue;
+}
+
+.purpura {
+  background-color: Purple;
+}
+
+.gris {
+  background-color: Gray;
+}
+
+.blanco {
+  background-color: white;
+}
+
+/* botones */
+.boton {
+  float: left;
+  font-size: 0.7em;
+  margin: 4px;
+}
