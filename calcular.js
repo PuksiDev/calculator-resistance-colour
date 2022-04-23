@@ -26,31 +26,8 @@ function darValor() {
 $boton3.addEventListener('click', () => {
   let bandaUnoDos = parseInt("" + valorBanda1 + valorBanda2);
   let resultado = bandaUnoDos * valorBanda3;
-  $resultado.textContent = "Resultado final: " + `${resultado}`;
-  console.log(bandaUnoDos);
-  console.log("resultado final: " + resultado)
+  $resultado.textContent = "Resultado final: " + `${resultado}` + " Ohms";
 });
-// // let resultado = bandaUnoDos * valorBanda3;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
