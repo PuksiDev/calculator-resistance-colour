@@ -1,16 +1,17 @@
 /* paleta de colores */
 .paleta {
   width: 110px;
-  height: 200px;
+  height: 250px;
   border: solid 1px black;
   border-radius: 5px;
   padding: 10px;
   background-color: #E5D367;
+  float: left;
 }
 
 .color {
   width: 45%;
-  height: 15%;
+  height: 14%;
   border: solid 1px black;
   display: inline-block;
 }
@@ -60,4 +61,8 @@
   float: left;
   font-size: 0.7em;
   margin: 4px;
+}
+
+#siguiente + .boton {
+  width: 90%;
 }

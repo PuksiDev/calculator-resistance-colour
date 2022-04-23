@@ -15,9 +15,6 @@ var $banda1 = document.getElementById('banda1');
 var $banda2 = document.getElementById('banda2');
 var $banda3 = document.getElementById('banda3');
 
-// console.log($negro)
-// $negro[0].innerHTML = "hola";
-// $negro[0].style.color = "white";
 
 function cambiarColor (c, b) {
   if (c == "negro") {
@@ -26,61 +23,112 @@ function cambiarColor (c, b) {
     b.style.backgroundColor = "Maroon";
   } else if (c == "rojo") {
     b.style.backgroundColor = "red";
+  } else if (c == "naranja") {
+    b.style.backgroundColor = "orange";
+  } else if (c == "amarillo") {
+    b.style.backgroundColor = "yellow";
+  } else if (c == "verde") {
+    b.style.backgroundColor = "green";
+  } else if (c == "azul") {
+    b.style.backgroundColor = "blue";
+  } else if (c == "purpura") {
+    b.style.backgroundColor = "purple";
+  } else if (c == "gris") {
+    b.style.backgroundColor = "gray";
+  } else if (c == "blanco") {
+    b.style.backgroundColor = "white";
   }
-
-  // else if (c == "naranja") {
-  //   $banda1.style.backgroundColor = "orange";
-  // } else if (c == "amarillo") {
-  //   $banda1.style.backgroundColor = "yellow";
-  // } else if (c == "verde") {
-  //   $banda1.style.backgroundColor = "green";
-  // } else if (c == "azul") {
-  //   $banda1.style.backgroundColor = "blue";
-  // } else if (c == "purpura") {
-  //   $banda1.style.backgroundColor = "purple";
-  // } else if (c == "gris") {
-  //   $banda1.style.backgroundColor = "gray";
-  // } else if (c == "blanco") {
-  //   $banda1.style.backgroundColor = "white";
-  // }
  }
 
+// eventos al hacer clic en cada color.
 $negro[0].addEventListener("click", () => {
    cambiarColor("negro", bandaActual);
+   const valorNegro = 0;
+   valorColor = valorNegro;
+   const multNegro = 1;
+   valorMult = multNegro;
+   darValor();
  });
 
 $cafe[0].addEventListener("click", () => {
   cambiarColor("cafe", bandaActual);
+  const valorCafe = 1;
+  valorColor = valorCafe;
+  const multCafe = 10;
+  valorMult = multCafe;
+  darValor();
 });
 
 $rojo[0].addEventListener("click", () => {
   cambiarColor("rojo", bandaActual);
+  const valorRojo = 2;
+  valorColor = valorRojo;
+  const multRojo = 100;
+  valorMult = multRojo;
+  darValor();
 });
 
 $naranja[0].addEventListener("click", () => {
-  cambiarColor("naranja")
+  cambiarColor("naranja", bandaActual);
+  const valorNaranja = 3;
+  valorColor = valorNaranja;
+  const multNaranja = 1000;
+  valorMult = multNaranja;
+  darValor();
+
 });
 
 $amarillo[0].addEventListener("click", () => {
-  cambiarColor("amarillo")
+  cambiarColor("amarillo", bandaActual);
+  const valorAmarillo = 4;
+  valorColor = valorAmarillo;
+  const multAmarillo = 10000;
+  valorMult = multAmarillo;
+  darValor();
 });
 
 $verde[0].addEventListener("click", () => {
-  cambiarColor("verde")
+  cambiarColor("verde", bandaActual);
+  const valorVerde = 5;
+  valorColor = valorVerde;
+  const multVerde = 100000;
+  valorMult = multVerde;
+  darValor();
 });
 
 $azul[0].addEventListener("click", () => {
-  cambiarColor("azul")
+  cambiarColor("azul", bandaActual);
+  const valorAzul = 6;
+  valorColor = valorAzul;
+  const multAzul = 1000000;
+  valorMult = multAzul;
+  darValor();
 });
 
 $purpura[0].addEventListener("click", () => {
-  cambiarColor("purpura")
+  cambiarColor("purpura", bandaActual);
+  const valorPurpura = 7;
+  valorColor = valorPurpura;
+  const multPurpura = 10000000;
+  valorMult = multPurpura;
+  darValor();
 });
 
 $gris[0].addEventListener("click", () => {
-  cambiarColor("gris")
+  cambiarColor("gris", bandaActual);
+  const valorGris = 8;
+  valorColor = valorGris;
+  const multGris = 100000000;
+  valorMult = multGris;
+  darValor();
+
 });
 
 $blanco[0].addEventListener("click", () => {
-  cambiarColor("blanco")
+  cambiarColor("blanco", bandaActual);
+  const valorBlanco = 9;
+  valorColor = valorBlanco;
+  const multBlanco = 1000000000;
+  valorMult = multBlanco;
+  darValor();
 });
