@@ -1,0 +1,53 @@
+.containerP {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30vh;
+}
+
+.paleta {
+  display: grid;
+  grid-template-columns: repeat(5, 50px);
+  grid-template-rows: repeat(2, 50px);
+  background-color: #21618C;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 5px 3px 0px 1px #00000033;
+}
+
+.color {
+  margin: 2px;
+  padding: 0;
+  border-radius: 5px;
+  border: none;
+}
+
+.color:hover {
+  border: 2px solid #4D5656;
+}
+/* botones */
+#teclado .container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+/* colores de la paleta */
+.negro {background-color: black;}
+
+.cafe {background-color: brown;}
+
+.rojo {background-color: red;}
+
+.naranja {background-color: orange;}
+
+.amarillo {background-color: yellow;}
+
+.verde {background-color: green;}
+
+.azul {background-color: blue;}
+
+.purpura {background-color: purple;}
+
+.gris {background-color: grey;}
+
+.blanco {background-color: white;}

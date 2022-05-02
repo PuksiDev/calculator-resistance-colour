@@ -11,32 +11,32 @@ var $gris = document.getElementsByClassName('gris');
 var $blanco = document.getElementsByClassName('blanco');
 
 // bandas de la resistencia
-var $banda1 = document.getElementById('banda1');
+var $banda1 = document.getElementById('banda1')
 var $banda2 = document.getElementById('banda2');
 var $banda3 = document.getElementById('banda3');
 
 
 function cambiarColor (c, b) {
   if (c == "negro") {
-    b.style.backgroundColor = "black";
+    b.style.fill = "black";
   } else if (c == "cafe") {
-    b.style.backgroundColor = "Maroon";
+    b.style.fill = "Maroon";
   } else if (c == "rojo") {
-    b.style.backgroundColor = "red";
+    b.style.fill = "red";
   } else if (c == "naranja") {
-    b.style.backgroundColor = "orange";
+    b.style.fill = "orange";
   } else if (c == "amarillo") {
-    b.style.backgroundColor = "yellow";
+    b.style.fill = "yellow";
   } else if (c == "verde") {
-    b.style.backgroundColor = "green";
+    b.style.fill = "green";
   } else if (c == "azul") {
-    b.style.backgroundColor = "blue";
+    b.style.fill = "blue";
   } else if (c == "purpura") {
-    b.style.backgroundColor = "purple";
+    b.style.fill = "purple";
   } else if (c == "gris") {
-    b.style.backgroundColor = "gray";
+    b.style.fill = "gray";
   } else if (c == "blanco") {
-    b.style.backgroundColor = "white";
+    b.style.fill = "white";
   }
  }
 
